@@ -1,4 +1,4 @@
-# This code is created by Georgios-Marios Merkouris for educational purposes
+# This code is created by Georgios-Marios Merkouris and Ioannis Liliopoulos for educational purposes
 # QCDC => Quantum Circuit DeComposer
 
 from qiskit.converters import circuit_to_dag, dag_to_circuit
@@ -42,3 +42,4 @@ def print_submatrices(qc: QuantumCircuit, display_circ: bool = False):
         print(state.data)
         print("\n")
         index += 1
+
